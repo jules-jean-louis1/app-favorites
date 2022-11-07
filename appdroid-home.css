@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+/* Color
+
+Purple #19162F
+Purple Bright: #322560
+redish: #FF2560
+white: #FFFFFF
+
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #19162F;
+}
+ul{
+    list-style-type: none;
+}
+.navbar-box {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    height: 50px;
+}
+.navbar-sub img{
+    width: 140%;
+}
+.navbar-sub2 ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10%;
+}
+.navbar-sub2{
+    width: 158%;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+header{
+    backdrop-filter: blur(30px);
+    height: 7%;
+    padding-top: 1%;
+}
+/*
+form {
+    background-color: #19162F;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+}
+*/
+svg {
+    color: #322560;
+    fill: #322560;
+    width: 16px;
+    height: 16px;
+    padding: 10px;
+}
+/*
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+*/
+a:link{
+    color: #fff;
+}
+a:visited{
+    color: #fff;
+}
+main {
+    padding-top: 6%;
+}
+body{
+    
+    backdrop-filter: blur(6px);
+    background-image: url(images-app-favorites/abstract-lights-gradient-texture_170579-1297.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+.s1{
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: flex;
+    margin-right: 20%;
+}
+.main-title{
+    color: #fff;
+}
+.main-title h3{
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 0px;
+
+}
+.main-title h2{
+    font-size: 190px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: justify;
+    margin: auto;
+    margin-left: 0px;
+    font-family: 'Passion One', cursive;
+}
+.main-title img{
+    width: 18%;
+    display: flex;
+    left: 60%;
+    bottom: 73%;
+    position: absolute;
+}
+.buttonClasscontact {
+    font-size:15px;
+    font-family:Arial;
+    width:194px;
+    height:53px;
+    border-width:3px;
+    color:#fff;
+    border-color:rgba(255, 255, 255, 1);
+    font-weight:bold;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    background-color:transparent;
+    margin-top: 8%;
+    text-decoration:none;
+}
+
+.s2{
+    background-color: #322560;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+.title-s2 h3{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.container{
+    display: flex;
+}
+#a1,#a2,#a3{
+    width: 340px;
+    height: 340px;
+    background-color: #19162F;
+    border-radius: 35px;
+    padding: 3%;
+    border: #FF2560;
+    border: 2px;
+}
+#a1 img{
+    width: 50%;
+}
+#a2 img{
+    width: 50%;
+}
+#a3 img{
+    width: 60%;
+}
+.title-s2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.contianer-box{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.box1,.box2,.box3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Section 3 */
+.s3{
+    background-color: #fff;
+    padding-top: 5%;
+    height: 60%;
+}
+.container-s3{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+}
+.box-s3 h2{
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box-s3{
+    padding-left: 65px;
+}
+.box-s3 p{
+    text-align: end;
+    font-size: 22px;
+}
+.s4{
+    background-color: #F6F0EC;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.container-s4 {
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 18px;
+}
+.box-warpper-s4 {
+    display: flex;
+    justify-content: space-around;
+}
+.box-s4-2 {
+    width: 50%;
+}
+.box-s4-2 p{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input style test*/
+
+
+/* icone */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*button*/
+.contact-button {
+    width: 30%;
+    height: 10%;
+    border: #FF2560;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: medium;
+    color: #FFFFFF;
+    background-color: #FF2560;
+    text-align: center;
+    transition: all 0.2s;
+}
+.contact-button:hover{
+    background-color:#ff255fbb;
+    }
+
+p.contact_info {
+    border-style: solid;
+    border-color: rgb(245 240 236);
+}
+/* footer */
+footer{
+	background-color: #19162F;
+	color: #1a1a1a;
+	max-height: 300px;
+}
+footer ul {
+	margin: 0px;
+}
+.boxwarpper{
+	margin-left: 15%;
+	margin-right: 15%;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	flex-direction: column;
+	height: 250px;
+}
+
+#roundsocial{
+	width: 32px;
+	height: 32px;
+	background-color: #FF2560;
+	border-radius: 10px;
+}
+.social-icone{
+	display: flex;
+}
+.social-icone ul{
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+    color: #fff;
+}
+.social-icone li{
+    color: #fff;
+}
+.menu{
+	display: flex;
+}
+.menu ul{
+	display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
